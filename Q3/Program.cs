@@ -10,13 +10,10 @@ namespace Q3
 	{
 		static void Main(string[] args)
 		{
-			//num="xxyy"    value=num.math.sqrt()   bool canbeint=int.tryparse(value,out int N)
-			string string1;
-
 
 			for (int i = 1; i <10; i++)
 			{
-				for (int j = 1; j < 10; j++)
+				for (int j = 0; j < 10; j++)
 				{
 					string1 = $"{i}{i}{j}{j}";
 					int num= Convert.ToInt32(string1);
