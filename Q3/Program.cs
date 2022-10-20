@@ -15,7 +15,7 @@ namespace Q3
 			{
 				for (int j = 0; j < 10; j++)
 				{
-					string1 = $"{i}{i}{j}{j}";
+					string string1 = $"{i}{i}{j}{j}";
 					int num= Convert.ToInt32(string1);
 					double value = Math.Sqrt(num);
 					bool canBeInt = int.TryParse(value.ToString(), out int N);
