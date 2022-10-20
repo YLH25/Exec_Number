@@ -16,7 +16,7 @@ namespace Q4
 				{
 					for (int m = 0; m <= 100; m++) 
 					{
-						int sum = 5 * i + 3 * k + 1/3*m;
+						int sum = 5 * i + 3 * k + m/3;
 						int sum1 = i + k + m;
 						if (sum==100) 
 						{
