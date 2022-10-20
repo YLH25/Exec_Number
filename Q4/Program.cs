@@ -10,22 +10,15 @@ namespace Q4
 	{
 		static void Main(string[] args)
 		{
-			for (int i = 0; i <= 100; i++)
+			for (int cock = 0; cock <= 100; cock++)
 			{
-				for (int k = 0; k <= 100; k++) 
+				for (int hen = 0; hen <=100; hen++)
 				{
-					for (int m = 0; m <= 100; m++) 
+					int chicken = 100-cock - hen;
+					int price=15*cock+9*hen+chicken;
+					if (price == 300)
 					{
-						int sum = 5 * i + 3 * k + m/3;
-						int sum1 = i + k + m;
-						if (sum==100) 
-						{
-							if (sum1 == 100)
-							{
-								Console.WriteLine($"公雞{i}母雞{k}小雞{m}");
-							}
-						}
-
+						Console.WriteLine($"公雞{cock}母雞{hen}小雞{chicken}");
 					}
 				}
 			}
